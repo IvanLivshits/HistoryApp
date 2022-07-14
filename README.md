@@ -18,4 +18,4 @@ Builds the app for production to the `build` folder.
 
 ### `yarn lint`
 
-Lints and fixes files
+Lints and fixes files.
