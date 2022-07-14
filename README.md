@@ -1,21 +1,13 @@
 # Getting Started with History App
 
-## Available Scripts
+Firstly use `yarn install` for installing all modules.
 
-In the project directory, you can run:
+## Available Scripts:
 
-### `yarn start`
+`yarn start` - Runs the app in the development mode.
 
-Runs the app in the development mode.
+`yarn test` - Launches the test runner in the interactive watch mode.
 
-### `yarn test`
+`yarn build` - Builds the app for production to the `build` folder.
 
-Launches the test runner in the interactive watch mode.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.
-
-### `yarn lint`
-
-Lints and fixes files.
+`yarn lint` - Lints and fixes files.
