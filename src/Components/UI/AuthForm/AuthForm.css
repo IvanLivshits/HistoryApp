@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap");
+
+.form_auth_block {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  width: 600px;
+  height: 600px;
+  margin: 10% auto;
+  background: url(https://bipbap.ru/wp-content/uploads/2017/05/Krasivaya-priroda.jpg);
+  background-size: cover;
+  border-radius: 4px;
+}
+.form_auth_block_content {
+  padding-top: 15%;
+}
+.form_auth_block_head_text {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  background: #ffffff;
+  opacity: 0.7;
+}
+.form_auth_block label {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background: #ffffff;
+  opacity: 0.7;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.form_auth_block input {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+input:focus {
+  color: #000000;
+  border-radius: 10px;
+  border: 2px solid #436fea;
+}
+.form_auth_button {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+::-webkit-input-placeholder {
+  color: #3f3f44;
+}
+::-moz-placeholder {
+  color: #3f3f44;
+}
+:-moz-placeholder {
+  color: #3f3f44;
+}
+:-ms-input-placeholder {
+  color: #3f3f44;
+}
