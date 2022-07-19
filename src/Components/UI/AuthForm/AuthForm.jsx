@@ -4,6 +4,7 @@ import "./AuthForm.css";
 const AuthForm = () => {
   return (
     <div className="form_auth_block">
+      <h1>Hi!</h1>
       <div className="form_auth_block_content">
         <p className="form_auth_block_head_text">Authorization</p>
         <form className="form_auth_style" action="#" method="post" />
