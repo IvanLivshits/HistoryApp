@@ -1,15 +1,17 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
 
-#root {
-  display: flex;
-  justify-content: center;
-}
+  :root {
+    --red: #FF0404;
+    --black: #121212;
+  }
+  
+  .App {
+    height: 100%;
+    width: auto;
+  }
 
-.App {
-  height: 100%;
-  width: auto;
-}
