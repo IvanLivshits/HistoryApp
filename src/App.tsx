@@ -1,13 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 
-import Header from "./Components/UI/header/Header";
+import HomePage from "./pages/HomePage/HomePage";
+import { ROUTE_HOME } from "./constants/routes";
+import './App.css'
 
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Header />}>
-        {/* Add homepage element here ex. <Route index element={<Home />} /> */}
-      </Route>
+      <Route path={ROUTE_HOME} element={<HomePage />} />
+      {/* Add homepage element here ex. <Route index element={<Home />} /> */}
     </Routes>
   );
 };
