@@ -1,11 +1,11 @@
-.main-form {
+.main__form {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.main-form-input {
+.main__form__input {
   padding-left: 2.2rem;
   padding-right: 1rem;
   padding-top: 1rem;
@@ -15,7 +15,7 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.input-search-icon {
+.main__form__icon {
   position: absolute;
   left: 1rem;
 }

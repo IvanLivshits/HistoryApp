@@ -1,9 +1,8 @@
-import React from "react";
 import { ReactComponent as Logosvg } from "./logo.svg";
 
 const Logo = () => {
   return (
-    <div className="logo-container">
+    <div className="logo__container">
       <Logosvg />
     </div>
   );

@@ -1,18 +1,18 @@
 import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 
-import Button from "../buttons/header-buttons/header-button";
-import "./search-bar.css";
+import Button from "../Buttons/HeaderButtons/HeaderButton";
+import "./SearchBar.css";
 
 const SearchBar: React.FC = () => {
   return (
-    <form className="main-form">
+    <form className="main__form">
       <input
-        className="main-form-input"
+        className="main__form__input"
         type="text"
         placeholder="Type a location"
       ></input>
-      <span className="input-search-icon">
+      <span className="main__form__icon">
         <AiOutlineSearch />
       </span>
       <Button buttonText="find"></Button>
