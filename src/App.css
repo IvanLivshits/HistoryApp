@@ -1,15 +1,32 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#root {
-  display: flex;
-  justify-content: center;
+:root {
+  --red: #ff0404;
+  --black: #121212;
 }
 
-.App {
-  height: 100%;
-  width: auto;
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
